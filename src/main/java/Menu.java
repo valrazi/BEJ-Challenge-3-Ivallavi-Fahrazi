@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Menu {
     Scanner sc = new Scanner(System.in);
 
-    public Integer Scan() throws FileNotFoundException {
+    public Integer Scan() throws InputMismatchException  {
         Integer options;
         try{
             options = sc.nextInt();

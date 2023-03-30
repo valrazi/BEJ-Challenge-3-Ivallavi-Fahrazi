@@ -12,6 +12,9 @@ import java.util.Collections;
 import java.util.List;
 
 public interface ReadWrite {
+    /*
+        Implementasi fitur java 8: Static Method dalam Interface
+    */
     static List<Integer> readFile(String path) throws FileNotFoundException{
         if(path == null){
             throw new FileNotFoundException("File not found");
